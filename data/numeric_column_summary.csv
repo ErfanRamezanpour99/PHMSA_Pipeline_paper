@@ -1,0 +1,83 @@
+columns,explaination,Missing_Percentage,Drop?,imputation,not_sure_to_drop,Min,Max,Variance
+IYEAR,"Year the accident occurred, derived from accident date",0,1,,,2010,2024,16.23837842
+REPORT_NUMBER,Report number assigned to the accident,0,1,,,20100001,20240232,1618698366
+SUPPLEMENTAL_NUMBER,Additional number for further details if any,0,1,,,15114,40053,62978855.89
+OPERATOR_ID,Operator’s OPS-issued Operator Identification Number,0,1,,,300,99043,161151862.6
+LOCATION_LATITUDE,Latitude where the accident occurred,0,1,,,18.431905,70.27817,31.43357235
+LOCATION_LONGITUDE,Longitude where the accident occurred,0,1,,,-158.09993,-66.006017,98.32177226
+UNINTENTIONAL_RELEASE_BBLS,Barrels of unintentional release,0,,,,0,48400,2585404.821
+RECOVERED_BBLS,Barrels of substance recovered after the accident,0,,,,0,35566,567060.8536
+FATAL,Indicator if there were fatalities ,0,,,,0,5,0.00711968
+INJURE,Indicator if there were injuries ,0,,,,0,5,0.023692665
+PRPTY,Property damage cost estimate,0,,,,0,840526118,2.10E+14
+EST_COST_GAS_RELEASED,Estimated cost of the gas released,0.07,1,m,,0,2570476,5024888426
+EST_COST_EMERGENCY,Estimated cost of emergency responses,0.11,1,m,,0,457958282,4.95E+13
+EST_COST_PROP_DAMAGE,Estimated cost of property damage,0.13,1,m,,0,27000000,4.87E+11
+EST_COST_ENVIRONMENTAL,Estimated cost of environmental damage,0.15,1,m,,0,635000000,7.81E+13
+EST_COST_OPER_PAID,Estimated cost the operator has paid,0.18,1,m,,0,30000000,4.82E+11
+EST_COST_OTHER,Estimated cost of other associated damages,0.29,1,m,,0,22350000,2.31E+11
+NUM_PUB_EVACUATED,Number of public evacuated,8.19,,z,,0,700,261.2899675
+ACCIDENT_PSIG,Accident pressure in pounds per square inch gauge,13.52,,m,,0,3001,180563.2137
+MOP_PSIG,Maximum operating pressure in pounds per square inch gauge,14.67,,m,,0,5100,355346.6826
+INTENTIONAL_RELEASE_BBLS,Barrels of intentional release,69.29,0,zm,,0,70191,7282373.262
+PIPE_DIAMETER,Diameter of the pipe involved in inches,75.04,0,m,,0.5,48,57.03460464
+NUM_PERSONS_HOSP_NOT_OVNGHT,Number of persons hospitalized not overnight,84.21,,z,,0,2,0.011539204
+NUM_INJURED_TREATED_BY_EMT,Number of injured treated by emergency medical technicians,84.21,,z,,0,1,0.001157407
+NUM_RESIDENT_BUILDING_AFFCTD,Number of residential buildings affected,84.21,,z,,0,10,0.381291307
+NUM_BUSINESS_BUILDING_AFFCTD,Number of business buildings affected,84.21,,z,,0,10,0.116871325
+HYDRTST_MOST_RCNT_YEAR,Most recent year hydraulic test was done,91.45,1,,,-1,2022,42709.44818
+HYDRTST_MOST_RCNT_PRESSURE,Pressure at the most recent hydraulic test,91.5,1,,,-1,4500,385315.9337
+AMOUNT_RELEASED,Total amount of substance released in the accident,91.74,0,zm,,0,10367,1759169.488
+NUM_EMPLOYEES_TESTED,Number of employees tested for substances,92.49,,z,,1,10,1.566672601
+NUM_EMPLOYEES_FAILED,Number of employees failed the test,92.49,,z,,0,1,0.00243309
+AXIAL_RECENT_YEAR,Most recent year axial assessments were done,92.73,1,,,1988,2024,30.77020493
+GEOMETRY_RECENT_YEAR,Most recent year geometric assessments were done,93.13,1,,,1988,2024,28.23432624
+CP_ANNUAL_SURVEY_YEAR,Year of the last cathodic protection annual survey,95.52,1,,,2009,2024,15.32492472
+OTHER_RECENT_YEAR,Most recent year other assessments were done,96.49,1,,,2004,2023,17.15139616
+PUNCTURE_AXIAL,Axial puncture dimension in inches,97.02,1,,,0.1,75,76.30831478
+PUNCTURE_CIRCUM,Circumferential puncture dimension in inches,97.02,1,,,0.1,75,49.58421419
+NUM_CONTRACTORS_TESTED,Number of contractors tested for substances,97.53,,z,,1,20,8.977114428
+NUM_CONTRACTORS_FAILED,Number of contractors failed the test,97.53,,z,,0,1,0.021890547
+SERVICE_INTERRUPTION_HOURS,Number of service interruption hours,97.61,,m,1,1,3978,168366.2714
+CLOSE_INTERVAL_SURVEY_YEAR,Year of the last close interval survey,97.68,1,,,2002,2023,19.9400075
+RUPTURE_WIDTH,Width of the rupture in inches,97.88,1,,,0.0625,53.6,60.88651437
+RUPTURE_LENGTH,Length of the rupture in inches,97.9,1,,,0.1,393,4185.851495
+API_STD_OUT_OF_SERVICE_YEAR,Year the API standard declared the equipment out of service,98.01,1,,,1994,2023,49.42881414
+API_STD_IN_SERVICE_YEAR,Year the API standard declared the equipment in service,98.01,1,,,2005,2024,18.24974516
+CIRC_WAVE_RECENT_YEAR,Most recent year circumferential wave assessments were done,98.32,1,,,2001,2024,31.19863832
+ULTRASONIC_RECENT_YEAR,Most recent year ultrasonic assessments were done,98.34,1,,,2002,2023,25.29474969
+AXIAL_PREVIOUS_YEAR,Previous year axial assessments were done,98.61,1,,,2006,2021,8.85245614
+GEOMETRY_PREVIOUS_YEAR,Previous year geometric assessments were done,98.67,1,,,2011,2022,6.545281583
+SAFE_FILL_LEVEL,Safe fill level of the tank or vessel involved,98.83,1,,,0,64.7,226.0851761
+EMAT_RECENT_YEAR,Most recent year electromagnetic acoustic transducer assessments,99.03,1,,,2005,2020,16.34978229
+DIRECT_ASMNT_PNT_NOT_IDNTF_YR,Year the point of accident was not identified in the direct assessment,99.12,1,,,2005,2023,22.51019504
+EXM_HANDL_ULTRASONIC_RCNT_YEAR,Most recent year handheld ultrasonic examinations were done,99.18,1,,,2004,2022,22.31616162
+OTHER_CP_SURVEY_YEAR,Year of other cathodic protection surveys,99.31,1,,,1981,2024,44.75177809
+EXM_OTHER_RCNT_YEAR,Most recent year other examinations were done,99.38,1,,,2004,2024,24.06060606
+CONSUMED_BY_FIRE_IN_BARRELS,Barrels of substance consumed by fire,99.4,0,z,,0,2912.76,258819.8912
+DIRECT_ASMNT_AT_PNT_ACCDNT_YR,Year of the direct assessment at the point of accident,99.43,1,,,1999,2023,21.09892473
+EXM_WAVE_ULTRASONIC_RCNT_YEAR,Most recent year wave ultrasonic examinations were done,99.56,1,,,2003,2024,34.51449275
+EXM_WET_MGNT_PARTCL_RCNT_YEAR,Most recent year wet magnetic particle examinations were done,99.6,1,,,2004,2022,30.5995671
+NUM_EMP_INJURIES,Number of employee injuries,99.62,0,z,,0,1,0.09047619
+NUM_CONTR_INJURIES,Number of contractor injuries,99.62,0,z,,0,5,2.657142857
+NUM_ER_INJURIES,Number of emergency responder injuries,99.62,0,z,,0,0,0
+NUM_WORKER_INJURIES,Number of worker injuries involved in the accident,99.62,0,z,,0,4,0.933333333
+NUM_GP_INJURIES,Number of general public injuries,99.62,0,z,,0,3,0.49047619
+EXM_RADIOGRAPHY_RCNT_YEAR,Most recent year radiography examinations were done,99.63,1,,,2007,2021,15.35526316
+CIRC_WV_PREVIOUS_YEAR,Previous year circumferential wave assessments were done,99.71,1,,,2001,2020,29.9625
+ULTR_PREVIOUS_YEAR,Previous year ultrasonic assessments were done,99.73,1,,,2005,2021,23.23809524
+OTHER_PREVIOUS_YEAR,Previous year other assessments were done,99.78,1,,,2013,2022,8.446969697
+NUM_EMP_FATALITIES,Number of employee fatalities,99.84,0,z,,0,1,0.111111111
+NUM_CONTR_FATALITIES,Number of contractor fatalities,99.84,0,z,,0,2,0.5
+NUM_ER_FATALITIES,Number of emergency responder fatalities,99.84,0,z,,0,0,0
+NUM_WORKER_FATALITIES,Number of worker fatalities involved in the accident,99.84,0,z,,0,5,2.75
+NUM_GP_FATALITIES,Number of general public fatalities,99.84,0,z,,0,2,0.527777778
+EXM_DRY_MGNT_PARTCL_RCNT_YEAR,Most recent year dry magnetic particle examinations were done,99.84,1,,,2005,2022,26.69444444
+ASMNT_OTHER_RCNT_YEAR,Most recent year other assessments were done,99.85,1,,,2018,2023,3.410714286
+DEPTH_OF_GRADE_DETAIL,Detailed depth of grade,99.87,1,,,6,156,2402.238095
+ESTIMATED_SPEED,Estimated speed at the time of the accident,99.91,1,,,5,35,170
+VEHICLE_TRAVEL_DISTANCE_FT,Distance traveled by any vehicle involved in feet,99.91,1,,,0,300,17480
+ASMNT_ECDA_RCNT_YEAR,Most recent year external corrosion direct assessment was done,99.93,1,,,2022,2023,0.25
+DIFF_GIRTH_WELD_WALL_THICKNESS,Differential girth weld wall thickness,99.95,1,,,0.25,0.644,0.041050333
+DIFF_GIRTH_WELD_SMYS,Differential girth weld specified minimum yield strength,99.95,1,,,35000,70000,306333333.3
+BIO_DIESEL_DETAILS,Details of any bio diesel involved in the accident,99.96,1,,,99,100,0.5
